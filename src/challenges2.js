@@ -22,11 +22,11 @@ console.log(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas'));
 function cellPhoneOrganizer(phoneNumberArrenge) {
   for (let index = 0; index < phoneNumberArrenge.length; index += 1) {
     if (index === 0) {
-      phoneNumberArrenge[index] = `(${phoneNumberArrenge[index]}`;
+      phoneNumberArrenge[index] = `${phoneNumberArrenge[index]}`;
     } else if (index === 1) {
-      phoneNumberArrenge[index] = `${phoneNumberArrenge[index]}) `;
+      phoneNumberArrenge[index] = `${phoneNumberArrenge[index]} `;
     } else if (index === 6) {
-      phoneNumberArrenge[index] = `${phoneNumberArrenge[index]}-`;
+      phoneNumberArrenge[index] = `${phoneNumberArrenge[index]}`;
     }
   }
   return phoneNumberArrenge.join('');
