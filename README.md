@@ -34,6 +34,8 @@ Passo 3. Clone o projeto:
 git clone git@github.com:IagoPFerreira/playground-functions.git
 ~~~
 
-Passo 4. Após terminado a clonagem, abra o diretório clonado, abra o diretório `src` e dê um duplo clique no arquivo `chanllenges.js` ou `chanllenges2.js`, cada arquivo possui conjuntos de funções, cada uma das funções pode ser usada em outros projetos via importação.
+Passo 4. Após terminado a clonagem, abra o diretório clonado, abra o diretório `src` e dê um duplo clique no arquivo `chanllenges.js` ou `chanllenges2.js`, cada arquivo possui conjuntos de funções, cada uma das funções pode ser usada em outros projetos via importação. A aplicação deve se parecer com essa:
+
+![preview](./playground-functions.png)
 
 ---
